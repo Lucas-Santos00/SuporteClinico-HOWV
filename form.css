@@ -1,0 +1,85 @@
+.form {
+    margin: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 5px solid #fdd6d7;
+    border-radius: 5%;
+}
+
+titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'league Spartan', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    height: 100px;
+}
+
+button {
+    display: flex;
+    justify-items: end;
+    right: 5px;
+
+}
+
+enviar {
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-family: 'kurale', sans-serif;
+    font-size: 30px;
+    width: 119px;
+}
+
+buttonVoltar {
+    position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-top: 43px;
+    background-color: #ffffffff;
+}
+
+voltar {
+    font-family: 'league Spartan', sans-serif;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+instagram {
+    width: 276px;
+    height: 79px;
+}
+
+.foto4 {
+    width: 25vw;
+    max-width: 400px;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .foto4{
+        display: none;
+    }
+
+    .form{
+        width: 90%;
+    }
+
+    .input{
+        flex-direction: column;
+    }
+}

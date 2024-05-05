@@ -1,0 +1,93 @@
+body{    
+    background: url(./src/asssets/images/fundo.png);
+    background-size: cover;
+    position: relative;
+}
+
+.menu-button{
+    display: none;
+}
+
+.btn-group-vertical{
+    position: fixed;
+}
+
+.foto2{
+    width: 150%;
+}
+
+.foto3{
+    transform: rotateY(180deg);
+    width: 250%;
+}
+
+.bubble{
+    width: 120%;
+    margin-top: -20%;
+}
+
+.instagram{
+    width: 15vh;
+}
+.balao{
+    position: absolute;
+    width: 10vh;
+    bottom: 3vh;
+    left: 58vw;
+}
+
+.esconder{
+    display: none;
+}
+
+.formulario{
+    display: none;
+}
+
+.mostrar{
+    display: block;
+}
+
+.form{
+    width: max-content;
+}
+
+@media screen and (max-width:500px){
+    .button{
+        display: none;
+    }
+
+    .menu-button{
+        display: flex;
+        position: fixed;
+        top: 25px;
+        right: 3vh;
+        padding: 10px;
+        font-size: xx-large;
+    }
+
+    .menu-x{
+        display: flex;
+        position: fixed;
+        top: 25px;
+        right: 3vh;
+        padding: 10px;
+        font-size: xx-large;
+    }
+    
+    .menuu{
+        top: 12vh;
+        display: flex;
+        position: fixed;
+        right: 3vh;
+        flex-direction: column;
+    }
+    
+    .footer{
+        width: 50vh;
+    }
+
+    .balao{
+        left: 30vh;
+    }
+}
